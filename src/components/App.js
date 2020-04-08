@@ -46,7 +46,7 @@ class Quote extends React.Component {
                                     <div className="col d-flex bd-highlight mb-0 p-3 justify-content-center">
                                         <button type="button" className="btn btn-ligth"><a href="https://twitter.com/explore" target="_blank"></a><img className="icono mg-2 bg-white" src={imgTwitter} /></button>
                                         <button type="button" className="btn btn-ligth"><a href="https://www.linkedin.com/home" target="_blank"></a><img className="icono mg-2 bg-white" src={imgIn} /></button>
-                                        <button type="button" id="boton" className="btn btn-info ml-auto bd-highlight" style={{ background: color }}
+                                        <button type="button" className="btn btn-dark ml-auto bd-highlight" style={{ background: color }}
                                             onClick={this.generateRandomcolor}
                                         >Nueva Cita</button>
                                     </div>
